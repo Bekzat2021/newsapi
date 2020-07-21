@@ -1,0 +1,31 @@
+Создание рубрики
+POST
+http://127.0.0.1:8000/api/rubric/create?name=education
+
+	*	*	*	*	*	*	*	*	*
+
+Создание автора 
+POST
+http://127.0.0.1:8000/api/author/create?name=James&email=james@gmail.com
+
+Все авторы
+http://127.0.0.1:8000/api/authors/all
+
+	*	*	*	*	*	*	*	*	*
+
+Создание новости
+POST
+http://127.0.0.1:8000/api/news/create?heading=head3&announcement=anou3&author=James&text=text3&rubric=sport&publication_date=2020-07-20
+
+Все новости конкретного автора
+http://127.0.0.1:8000/api/news/author/Donald
+
+Все новости рубрики
+http://127.0.0.1:8000/api/news/rubric/city
+
+Новость по ID
+http://127.0.0.1:8000/api/news/1
+
+Новость по заголовку
+http://127.0.0.1:8000/api/news/heading/HEAD
+
